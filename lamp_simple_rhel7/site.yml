@@ -16,7 +16,7 @@
     - web
 
 - name: deploy MySQL and configure the databases
-  hosts: all
+  hosts: dbservers
   remote_user: root
 
   roles:
