@@ -1,6 +1,6 @@
 ---
 - name: Install php-fpm and deps
-  yum: name={{ item }} state=latest
+  yum: name={{ item }} state=present
   with_items:
     - php56
     - php56-fpm
